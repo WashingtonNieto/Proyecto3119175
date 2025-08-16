@@ -71,3 +71,43 @@ body {
 #menu a:hover{
     background: #01B1EA;
 }
+
+
+/*content*/
+#content{
+    margin: 0px auto;
+    overflow: hidden;
+    background: white;
+}
+
+#lateral{
+    width: 20%;
+    min-height: 650px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid red;
+}
+
+#lateral .block_aside{
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+    border: 1px solid blue;
+}
+#lateral h3{
+    display: block;
+    color: #222;
+    width: 100%;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #E1E1E1;
+    border: 2px solid #01b1EA;
+
+
+}
