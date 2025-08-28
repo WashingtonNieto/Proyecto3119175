@@ -155,7 +155,7 @@ input[type="submit"],
 }
 
 #central{
-    width: 80%;
+    width: 74%;
     min-height: 550px;
     float: right;
     border-left: 1px solid #ccc;
@@ -186,7 +186,7 @@ input[type="submit"],
 
 }
 .product img{
-    height: 150px;
+    height: 80px;
     margin-bottom: 10px;
 }
 
