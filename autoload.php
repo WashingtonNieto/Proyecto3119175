@@ -1,6 +1,6 @@
 <?php
 
-    function controller_autoload($classname){
+    function controllers_autoload($classname){
         include 'controllers/' . $classname . '.php';
     }
 
