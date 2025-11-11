@@ -1,6 +1,9 @@
 <?php
 
+session_start();
+
 require_once 'autoload.php';
+
 require_once 'config/db.php';
 require_once 'config/parameters.php';
 
@@ -11,8 +14,6 @@ function show_error(){
     $error = new ErrorController();
     $error->index();
 }
-
-
 
 if(isset($_GET['controller'])){
     $nombre_controlador = $_GET['controller'].'Controller';
@@ -40,8 +41,6 @@ if(class_exists($nombre_controlador)){
 }else{
     show_error();
 }
-
-
 
 
 require_once 'views/layout/footer.php';

@@ -13,7 +13,7 @@
     <div id="container">
         <header id="header">
             <div id="logo">
-                <img src="./assets/img/tienda_logo.png" alt="imagen log">
+                <img src="./assets/img/tienda_logo.png" alt="img">
                 <a href="#">tienda</a>
             </div>
         </header>
