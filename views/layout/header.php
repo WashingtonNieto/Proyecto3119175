@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML2</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="<?=base_url?>assets/css/style.css" />
+
+
 </head>
 
 <body>
@@ -13,8 +18,10 @@
     <div id="container">
         <header id="header">
             <div id="logo">
-                <img src="./assets/img/tienda_logo.png" alt="img">
-                <a href="#">tienda</a>
+
+                <img src="<?=base_url?>assets/img/tienda_logo.PNG" alt="Tienda logo" />
+                <a href="<?=base_url?>">Tienda</a>
+
             </div>
         </header>
         <nav id="menu">
