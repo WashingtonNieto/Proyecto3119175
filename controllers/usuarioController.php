@@ -20,6 +20,9 @@
                 $usuario->setEmail($_POST['email']);
                 $usuario->setPassword($_POST['password']);
 
+
+                // validaciones faltan
+                
                 $save = $usuario->save();
             }
         }
